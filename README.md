@@ -30,13 +30,13 @@ Yes.
 
 ### Can I run at the same time as Cesium?
 
-Probably, but whichever program you installed last will overwrite functionality of the other one.
+Yes, starting with Cesium version 3.3.0.
 
 ### How long does it last?
 
 Until the next ram clear, but it persists through Garbage Collects.
 
-### Which one should I install.
+### Which one should I install?
 
 Just use ASMHOOK.8xp if you are able to transfer it.  If you are using TI-Connect CE for Chrome OS then you may have to use ASMHOOK_unprot.8xp instead.
 
