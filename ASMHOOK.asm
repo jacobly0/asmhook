@@ -114,7 +114,7 @@ virtual
 	jp	(hl)
 	load	.trampoline2: $ - $$ from $$
 end virtual
-iterate value, ti.PopRealO1, ti.ChkFindSym, relative 6, 10 + lengthof name + 2, .trampoline1, .trampoline2
+iterate value, ti.PopRealO1, ti.ChkFindSym, relative 6, launch.endoff, .trampoline1, .trampoline2
  match =relative? offset, value
 	ex	de, hl
 	ld	hl, offset
