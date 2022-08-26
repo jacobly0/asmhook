@@ -244,9 +244,11 @@ begin:	call	ti.CurFetch
 	ld	a, (hl)
 	cp	a, ti.tAsm84CeCmp
 	jr	z, parser.valid
+.retz:	cp	a, a
+	ret
 .rew:	ld	hl, (ti.begPC)
 	ld	(ti.curPC), hl
-.retz:	cp	a, a
+	cp	a, a
 	ret
 .scan:	call	ti.Isa2ByteTok
 	call	z, ti.IncFetch
