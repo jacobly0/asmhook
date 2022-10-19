@@ -28,7 +28,7 @@ This simply restores functionality that already existed on previous OS versions.
 
 Yes.
 
-### Can I run at the same time as Cesium?
+### Can I run it at the same time as Cesium?
 
 Yes, starting with Cesium version 3.3.0.
 
@@ -38,16 +38,16 @@ Until the next ram clear, but it persists through Garbage Collects.
 
 ### Which one should I install?
 
-Just use ASMHOOK.8xp if you are able to transfer it.  If you are using TI-Connect CE for Chrome OS then you may have to use ASMHOOK_unprot.8xp instead.
+Just use ASMHOOK.8xp if you are able to transfer it. If you are using TI-Connect CE for Chrome OS, then you may have to use ASMHOOK_unprot.8xp instead.
 
-### How do I install?
+### How do I install it?
 
-Assembly programs were removed from recent OS versions, which are also the only versions for which this program is actually useful.  This means that you have to be able to run assembly programs in order to run this program that allows you to be able to run assembly programs.  Therefore, you'll need some sort of jailbreak-like program first, in order to bootstrap running this program.
+Assembly programs were removed from recent OS versions, which are also the only versions for which this program is actually useful. This means that you have to be able to run assembly programs in order to run this program that allows you to be able to run assembly programs. Therefore, you'll need some sort of jailbreak-like program first, in order to bootstrap running this program.
 
 ### What does ERR:INVALID mean?
 
-You have recent OS that disables assembly programs, see the previous answer.
+You have a recent OS version that disables assembly programs, see the previous answer.
 
 ### It didn't do anything when I ran it!
 
-It's not supposed to.  An easy way to test if it worked is to try running itself from the homescreen afterwards.
+It's not supposed to. An easy way to test if it worked is to try running the program itself from the homescreen afterwards.
